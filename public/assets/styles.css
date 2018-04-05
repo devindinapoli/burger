@@ -1,6 +1,9 @@
 body{
     text-align: center;
-    background-color: lightslategray;
+    background-image: url("/assets/chalk.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Rock Salt', cursive;
 }
 #ready_to_eat{
     height: 250px;
@@ -24,4 +27,10 @@ h4{
 .patty{
     height:300px;
     width:300px;
+}
+.burger{
+    font-size: 11px;
+}
+.devour-button{
+    font-size: 11px;
 }
