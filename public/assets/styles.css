@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: lightslategray;
+}
+#ready_to_eat{
+    height: 250px;
+    width: 350px;
+    overflow: scroll;
+}
+#already_eaten{
+    height: 250px;
+    width: 350px;
+    overflow: scroll;
+}
+hr{
+    width: 500px;
+}
+#submit-button{
+    margin-top: 5px;
+}
+h4{
+    margin-top: 50px;
+}
+.patty{
+    height:300px;
+    width:300px;
+}

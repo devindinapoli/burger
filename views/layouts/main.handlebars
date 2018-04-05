@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/assets/styles.css">
 	<meta charset="UTF-8">
 	<title>Eat It!</title>
-
 </head>
 
 <body>
+	  
+	<div class="container">
 
-	{{{ body }}}
+		{{{ body }}}
 
-<center>
-	<form action="burger/create" method="POST">          	
-    	<label for="new_burger" class="red_font">Request a new burger and place your order!</label>
-		<br>
-        <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
-		<br>
-        <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
-    </form>
-</center>
-
-
+		<div class="row">
+			<div class="col sm-3">
+			</div>
+			<div class="col sm-3">
+				<form action="/burger/create" method="POST"> 
+					<hr>       	
+					<label for="new_burger" class="red_font">Place Your Order Here!</label>
+					<textarea class="form-control" columns="3" rows="4" id="new_burger" name="burger_name"></textarea>
+					<button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
+				</form>
+			</div>
+			<div class="col sm-6">
+			</div>
+		</div>
+	</div>
  
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   </body>
